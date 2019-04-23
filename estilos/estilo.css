@@ -1,0 +1,112 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.navigation-bar {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navigation-bar > li{    
+  float: left;
+}
+ 
+.navigation-bar > li a {
+    display: block;
+    color: #004F9F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+  
+.navigation-bar > li a:hover:not(.active) {
+    background-color: #004F9F;
+    color: white;
+  }
+  
+.navigation-bar > .active {
+    background-color: #4CAF50;
+}
+
+.sub-menu {
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sub-menu > ul {    
+    list-style-type: none;
+}
+
+.sub-menu li {
+    margin: 4px;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.docente-holder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 16px;
+    color: #004F9F;
+    text-decoration: none;
+}
+
+.docente-holder:hover {
+    background-color: #004F9F;
+    color: white;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 6px 6px 6px 0;
+}
+
+.sem-foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}
+
+.novo {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+}
